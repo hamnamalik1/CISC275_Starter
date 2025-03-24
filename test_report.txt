@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (59 ms)
+  ✕ renders learn react link (67 ms)
 
   ● renders learn react link
 
@@ -17,54 +17,90 @@ FAIL src/App.test.tsx
           [33mstyle[39m=[32m"background-color: rgb(240, 248, 255); padding: 20px; border-radius: 10px;"[39m
         [36m>[39m
           [36m<nav[39m
-            [33mclass[39m=[32m"justify-content-center p-3 rounded navbar navbar-expand-lg navbar-dark bg-dark"[39m
+            [33mclass[39m=[32m"p-3 rounded navbar navbar-expand-lg navbar-dark bg-dark"[39m
           [36m>[39m
-            [36m<a[39m
-              [33mclass[39m=[32m"navbar-brand"[39m
-              [33mhref[39m=[32m"#home"[39m
-              [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0);"[39m
-            [36m>[39m
-              [0mFind Your Career![0m
-            [36m</a>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"mx-auto navbar-nav"[39m
+              [33mclass[39m=[32m"d-flex justify-content-between align-items-center w-100"[39m
             [36m>[39m
-              [36m<a[39m
-                [33mclass[39m=[32m"nav-link"[39m
-                [33mdata-rr-ui-event-key[39m=[32m"#home"[39m
-                [33mhref[39m=[32m"#home"[39m
-                [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+              [36m<form[39m
+                [33mclass[39m=[32m"d-flex"[39m
               [36m>[39m
-                [0mHome[0m
-              [36m</a>[39m
-              [36m<a[39m
-                [33mclass[39m=[32m"nav-link"[39m
-                [33mdata-rr-ui-event-key[39m=[32m"#simple-quiz"[39m
-                [33mhref[39m=[32m"#simple-quiz"[39m
-                [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"input-group"[39m
+                [36m>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"form-control"[39m
+                    [33mplaceholder[39m=[32m"Search"[39m
+                    [33mstyle[39m=[32m"max-width: 200px; height: 45px;"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-outline-light"[39m
+                    [33mstyle[39m=[32m"height: 45px;"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mSearch[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+              [36m</form>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"text-center"[39m
+                [33mstyle[39m=[32m"position: absolute; left: 100px; right: 50px;"[39m
               [36m>[39m
-                [0mSimple Quiz[0m
-              [36m</a>[39m
-              [36m<a[39m
-                [33mclass[39m=[32m"nav-link"[39m
-                [33mdata-rr-ui-event-key[39m=[32m"#detailed-quiz"[39m
-                [33mhref[39m=[32m"#detailed-quiz"[39m
-                [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
-              [36m>[39m
-                [0mDetailed Quiz[0m
-              [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"navbar-brand"[39m
+                  [33mhref[39m=[32m"#home"[39m
+                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block;"[39m
+                [36m>[39m
+                  [0mFind Your Career![0m
+                [36m</a>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"justify-content-center navbar-nav"[39m
+                  [33mstyle[39m=[32m"position: relative; bottom: 10px;"[39m
+                [36m>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#home"[39m
+                    [33mhref[39m=[32m"#home"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                  [36m>[39m
+                    [0mHome[0m
+                  [36m</a>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#simple-quiz"[39m
+                    [33mhref[39m=[32m"#simple-quiz"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                  [36m>[39m
+                    [0mSimple Quiz[0m
+                  [36m</a>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#detailed-quiz"[39m
+                    [33mhref[39m=[32m"#detailed-quiz"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                  [36m>[39m
+                    [0mDetailed Quiz[0m
+                  [36m</a>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mLogin[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-warning"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mSign Up[0m
+                [36m</button>[39m
+              [36m</div>[39m
             [36m</div>[39m
           [36m</nav>[39m
-          [36m<form[39m
-            [33mclass[39m=[32m"mt-3"[39m
-          [36m>[39m
-            [36m<input[39m
-              [33mclass[39m=[32m"form-control"[39m
-              [33mplaceholder[39m=[32m"Search"[39m
-              [33mtype[39m=[32m"text"[39m
-              [33mvalue[39m=[32m""[39m
-            [36m/>[39m
-          [36m</form>[39m
           [36m<div[39m
             [33mclass[39m=[32m"mt-4 row"[39m
           [36m>[39m
@@ -243,7 +279,7 @@ All files           |   33.33 |        0 |   16.66 |   38.88 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.706 s
+Time:        2.734 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
