@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (67 ms)
+  ✕ renders learn react link (62 ms)
 
   ● renders learn react link
 
@@ -123,7 +123,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mAbout goes here...........[0m
+                    [0mChoosing the right career can feel overwhelming, but we’re here to help! Our career quiz is designed to guide you toward a profession that matches your skills, interests, and personality. Based on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions. Start today and take the first step toward your future![0m
                   [36m</p>[39m
                 [36m</div>[39m
               [36m</div>[39m
@@ -160,7 +160,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mSimple Quiz about goes here.....[0m
+                    [0mOur Simple Quiz is a quick and easy way to explore career options that suit you. It’s a great starting point for anyone looking for direction without spending too much time. Give it a try and discover potential career paths in minutes![0m
                   [36m</p>[39m
                   [36m<button[39m
                     [33mclass[39m=[32m"btn btn-light"[39m
@@ -190,7 +190,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mDetalied Quiz about goes here.....[0m
+                    [0mThe Detailed Quiz provides an in-depth analysis of your skills, interests, and personality to help you find the best career path. [0m
                   [36m</p>[39m
                   [36m<button[39m
                     [33mclass[39m=[32m"btn btn-light"[39m
@@ -271,15 +271,15 @@ FAIL src/App.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
-All files           |   33.33 |        0 |   16.66 |   38.88 |                   
- App.tsx            |      70 |      100 |      25 |     100 |                   
+All files           |   26.92 |        0 |    12.5 |   29.16 |                   
+ App.tsx            |   46.66 |      100 |   16.66 |   53.84 | 13-25             
  index.tsx          |       0 |      100 |     100 |       0 | 7-19              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.734 s
+Time:        2.716 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
