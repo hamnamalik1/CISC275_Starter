@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (69 ms)
+  ✕ renders learn react link (62 ms)
 
   ● renders learn react link
 
@@ -50,8 +50,8 @@ FAIL src/App.test.tsx
               [36m>[39m
                 [36m<a[39m
                   [33mclass[39m=[32m"navbar-brand"[39m
-                  [33mhref[39m=[32m"#home"[39m
-                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block;"[39m
+                  [33mhref[39m=[32m"#"[39m
+                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block; cursor: pointer;"[39m
                 [36m>[39m
                   [0mFind Your Career![0m
                 [36m</a>[39m
@@ -61,25 +61,31 @@ FAIL src/App.test.tsx
                 [36m>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
-                    [33mdata-rr-ui-event-key[39m=[32m"#home"[39m
-                    [33mhref[39m=[32m"#home"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
                     [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mHome[0m
                   [36m</a>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
-                    [33mdata-rr-ui-event-key[39m=[32m"#simple-quiz"[39m
-                    [33mhref[39m=[32m"#simple-quiz"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
                     [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mSimple Quiz[0m
                   [36m</a>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
-                    [33mdata-rr-ui-event-key[39m=[32m"#detailed-quiz"[39m
-                    [33mhref[39m=[32m"#detailed-quiz"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
                     [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mDetailed Quiz[0m
                   [36m</a>[39m
@@ -123,7 +129,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mChoosing the right career can feel overwhelming, but we’re here to help! Our career quiz is designed to guide you toward a profession that matches your skills, interests, and personality. Based on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions. Start today and take the first step toward your future![0m
+                    [0mChoosing the right career can feel overwhelming, but we're here to help! Our career quiz is designed to guide you toward a profession that matches your skills, interests, and personality. Based on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions. Start today and take the first step toward your future![0m
                   [36m</p>[39m
                 [36m</div>[39m
               [36m</div>[39m
@@ -160,7 +166,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mOur Simple Quiz is a quick and easy way to explore career options that suit you. It’s a great starting point for anyone looking for direction without spending too much time. Give it a try and discover potential career paths in minutes![0m
+                    [0mOur Simple Quiz is a quick and easy way to explore career options that suit you. It's a great starting point for anyone looking for direction without spending too much time. Give it a try and discover potential career paths in minutes![0m
                   [36m</p>[39m
                   [36m<button[39m
                     [33mclass[39m=[32m"btn btn-light"[39m
@@ -190,7 +196,7 @@ FAIL src/App.test.tsx
                   [36m<p[39m
                     [33mclass[39m=[32m"card-text"[39m
                   [36m>[39m
-                    [0mThe Detailed Quiz provides an in-depth analysis of your skills, interests, and personality to help you find the best career path. [0m
+                    [0mThe Detailed Quiz provides an in-depth analysis of your skills, interests, and personality to help you find the best career path.[0m
                   [36m</p>[39m
                   [36m<button[39m
                     [33mclass[39m=[32m"btn btn-light"[39m
@@ -271,15 +277,18 @@ FAIL src/App.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
-All files           |   33.33 |        0 |   16.66 |   38.88 |                   
- App.tsx            |      70 |      100 |      25 |     100 |                   
+All files           |   29.26 |       40 |   11.11 |   35.29 |                   
+ App.tsx            |      75 |    66.66 |      50 |      75 | 12                
+ DetailedQuiz.tsx   |   33.33 |      100 |       0 |   33.33 | 5-14              
+ HomePage.tsx       |      35 |      100 |      10 |   53.84 | 38-116            
+ SimpleQuiz.tsx     |   33.33 |      100 |       0 |   33.33 | 5-14              
  index.tsx          |       0 |      100 |     100 |       0 | 7-19              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.689 s
+Time:        2.814 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
