@@ -252,6 +252,36 @@ FAIL src/App.test.tsx
               [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
+          [36m<footer[39m
+            [33mclass[39m=[32m"bg-light py-4 mt-5 text-center"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"container"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"mb-2 form-label"[39m
+              [36m>[39m
+                [0mOpenAI API Key:[0m
+              [36m</label>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"d-flex justify-content-center align-items-center flex-wrap gap-2"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"form-control"[39m
+                  [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                  [33mstyle[39m=[32m"max-width: 250px;"[39m
+                  [33mtype[39m=[32m"password"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-warning"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0mSave API Key[0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</footer>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -277,10 +307,10 @@ FAIL src/App.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
-All files           |   19.67 |       40 |    7.69 |   27.27 |                   
+All files           |   24.28 |    41.66 |   10.34 |   32.07 |                   
  App.tsx            |      75 |    66.66 |      50 |      75 | 12                
  DetailedQuiz.tsx   |    7.69 |      100 |       0 |    12.5 | 5-56              
- HomePage.tsx       |      35 |      100 |      10 |   53.84 | 38-116            
+ HomePage.tsx       |   41.37 |       50 |   15.38 |   54.54 | 24,28-30,62-140   
  SimpleQuiz.tsx     |    7.69 |      100 |       0 |    12.5 | 5-56              
  index.tsx          |       0 |      100 |     100 |       0 | 7-19              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
@@ -288,7 +318,7 @@ All files           |   19.67 |       40 |    7.69 |   27.27 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.014 s
+Time:        3.01 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
