@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (84 ms)
+  ✕ renders learn react link (88 ms)
 
   ● renders learn react link
 
@@ -121,7 +121,7 @@ FAIL src/App.test.tsx
                   [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
                   [33mtype[39m=[32m"button"[39m
                 [36m>[39m
-                  [0m🌸 Pink Theme[0m
+                  [0m🌸 Change Theme[0m
                 [36m</button>[39m
               [36m</div>[39m
             [36m</div>[39m
@@ -339,5 +339,5 @@ All files              |   16.56 |    40.69 |    5.81 |   19.14 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.843 s
+Time:        2.9 s
 Ran all test suites.
