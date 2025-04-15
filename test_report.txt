@@ -26,14 +26,16 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (108 ms)
+  ✕ renders learn react link (84 ms)
 
   ● renders learn react link
 
     TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
     Ignored nodes: comments, script, style
-    [36m<body>[39m
+    [36m<body[39m
+      [33mclass[39m=[32m"default"[39m
+    [36m>[39m
       [36m<div>[39m
         [36m<div[39m
           [33mclass[39m=[32m"container"[39m
@@ -113,6 +115,14 @@ FAIL src/App.test.tsx
                     [0mDetailed Quiz[0m
                   [36m</a>[39m
                 [36m</div>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m🌸 Pink Theme[0m
+                [36m</button>[39m
               [36m</div>[39m
             [36m</div>[39m
           [36m</nav>[39m
@@ -248,6 +258,7 @@ FAIL src/App.test.tsx
                         [33mclass[39m=[32m"form-control"[39m
                         [33mname[39m=[32m"message"[39m
                         [33mrows[39m=[32m"2"[39m
+                        [33mstyle[39m=[32m"background-color: white; color: rgb(51, 51, 51);"[39m
                       [36m/>[39m
                     [36m</div>[39m
                     [36m<button[39m
@@ -278,7 +289,7 @@ FAIL src/App.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-control"[39m
                   [33mplaceholder[39m=[32m"Insert API Key Here"[39m
-                  [33mstyle[39m=[32m"max-width: 250px;"[39m
+                  [33mstyle[39m=[32m"max-width: 250px; background-color: white; color: rgb(51, 51, 51);"[39m
                   [33mtype[39m=[32m"password"[39m
                   [33mvalue[39m=[32m""[39m
                 [36m/>[39m
@@ -313,20 +324,20 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
------------------------|---------|----------|---------|---------|-------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
------------------------|---------|----------|---------|---------|-------------------
-All files              |   11.76 |    23.07 |    3.61 |   13.74 |                   
- App.tsx               |      75 |     62.5 |      50 |      75 | 13                
- DetailedQuiz.tsx      |    3.22 |        0 |       0 |    3.84 | 5-155             
- HomePage.tsx          |   41.37 |       50 |   15.38 |   54.54 | 24,28-30,62-144   
- SimpleQuiz.tsx        |    1.53 |        0 |       0 |    1.66 | 5-298             
- SimpleQuizResults.tsx |    7.69 |      100 |       0 |    12.5 | 6-58              
- index.tsx             |       0 |      100 |     100 |       0 | 7-19              
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
------------------------|---------|----------|---------|---------|-------------------
+-----------------------|---------|----------|---------|---------|--------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
+-----------------------|---------|----------|---------|---------|--------------------
+All files              |   16.56 |    40.69 |    5.81 |   19.14 |                    
+ App.tsx               |      75 |     62.5 |      50 |      75 | 13                 
+ DetailedQuiz.tsx      |    3.22 |        0 |       0 |    3.84 | 5-155              
+ HomePage.tsx          |   53.84 |    48.38 |      25 |   65.62 | 25,33,37-39,83-188 
+ SimpleQuiz.tsx        |    1.53 |        0 |       0 |    1.66 | 5-298              
+ SimpleQuizResults.tsx |    7.69 |      100 |       0 |    12.5 | 6-58               
+ index.tsx             |       0 |      100 |     100 |       0 | 7-19               
+ reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10               
+-----------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.759 s
+Time:        2.843 s
 Ran all test suites.
