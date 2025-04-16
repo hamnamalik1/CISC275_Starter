@@ -172,7 +172,7 @@ const DetailedQuizPage = ({ navigateTo }: { navigateTo: (page: string) => void }
             </Form>
           </Card>
 
-          {/* Repeat for Questions 2–7 */}
+          {/* For the other questions */}
           {/* You can copy the above block and change: 
               - `h5` text
               - `img src`
