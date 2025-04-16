@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (83 ms)
+  ✕ renders learn react link (84 ms)
 
   ● renders learn react link
 
@@ -43,97 +43,87 @@ FAIL src/App.test.tsx
         [36m>[39m
           [36m<nav[39m
             [33mclass[39m=[32m"p-3 rounded navbar navbar-expand-lg navbar-dark bg-dark"[39m
+            [33mstyle[39m=[32m"z-index: 1050;"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"container-fluid"[39m
+              [33mclass[39m=[32m"d-flex justify-content-between align-items-center w-100"[39m
             [36m>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"w-100 row"[39m
+              [36m<form[39m
+                [33mclass[39m=[32m"d-flex"[39m
               [36m>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"d-flex align-items-center col-md-3 col-12"[39m
+                  [33mclass[39m=[32m"input-group"[39m
                 [36m>[39m
-                  [36m<form[39m
-                    [33mclass[39m=[32m"d-flex"[39m
-                  [36m>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"input-group"[39m
-                    [36m>[39m
-                      [36m<input[39m
-                        [33mclass[39m=[32m"form-control"[39m
-                        [33mplaceholder[39m=[32m"Search"[39m
-                        [33mstyle[39m=[32m"max-width: 200px; height: 45px;"[39m
-                        [33mtype[39m=[32m"text"[39m
-                        [33mvalue[39m=[32m""[39m
-                      [36m/>[39m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"btn btn-outline-light"[39m
-                        [33mstyle[39m=[32m"height: 45px;"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mSearch[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                  [36m</form>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"text-center col-md-6 col-12"[39m
-                [36m>[39m
-                  [36m<div>[39m
-                    [36m<span[39m
-                      [33mclass[39m=[32m"navbar-brand"[39m
-                      [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block;"[39m
-                    [36m>[39m
-                      [0mFind Your Career![0m
-                    [36m</span>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"justify-content-center navbar-nav"[39m
-                    [36m>[39m
-                      [36m<a[39m
-                        [33mclass[39m=[32m"nav-link"[39m
-                        [33mdata-rr-ui-event-key[39m=[32m"#"[39m
-                        [33mhref[39m=[32m"#"[39m
-                        [33mrole[39m=[32m"button"[39m
-                        [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
-                        [33mtabindex[39m=[32m"0"[39m
-                      [36m>[39m
-                        [0mHome[0m
-                      [36m</a>[39m
-                      [36m<a[39m
-                        [33mclass[39m=[32m"nav-link"[39m
-                        [33mdata-rr-ui-event-key[39m=[32m"#"[39m
-                        [33mhref[39m=[32m"#"[39m
-                        [33mrole[39m=[32m"button"[39m
-                        [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
-                        [33mtabindex[39m=[32m"0"[39m
-                      [36m>[39m
-                        [0mSimple Quiz[0m
-                      [36m</a>[39m
-                      [36m<a[39m
-                        [33mclass[39m=[32m"nav-link"[39m
-                        [33mdata-rr-ui-event-key[39m=[32m"#"[39m
-                        [33mhref[39m=[32m"#"[39m
-                        [33mrole[39m=[32m"button"[39m
-                        [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
-                        [33mtabindex[39m=[32m"0"[39m
-                      [36m>[39m
-                        [0mDetailed Quiz[0m
-                      [36m</a>[39m
-                    [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"d-flex justify-content-end align-items-center col-md-3 col-12"[39m
-                [36m>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"form-control"[39m
+                    [33mplaceholder[39m=[32m"Search"[39m
+                    [33mstyle[39m=[32m"max-width: 200px; height: 45px;"[39m
+                    [33mtype[39m=[32m"text"[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m/>[39m
                   [36m<button[39m
-                    [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
-                    [33mstyle[39m=[32m"z-index: 10;"[39m
+                    [33mclass[39m=[32m"btn btn-outline-light"[39m
+                    [33mstyle[39m=[32m"height: 45px;"[39m
                     [33mtype[39m=[32m"button"[39m
                   [36m>[39m
-                    [0m🌸 Change Theme[0m
+                    [0mSearch[0m
                   [36m</button>[39m
                 [36m</div>[39m
+              [36m</form>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"text-center"[39m
+                [33mstyle[39m=[32m"position: absolute; left: 100px; right: 50px;"[39m
+              [36m>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"navbar-brand"[39m
+                  [33mhref[39m=[32m"#"[39m
+                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block; cursor: pointer;"[39m
+                [36m>[39m
+                  [0mFind Your Career![0m
+                [36m</a>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"justify-content-center navbar-nav"[39m
+                  [33mstyle[39m=[32m"position: relative; bottom: 10px;"[39m
+                [36m>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mHome[0m
+                  [36m</a>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mSimple Quiz[0m
+                  [36m</a>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mDetailed Quiz[0m
+                  [36m</a>[39m
+                [36m</div>[39m
               [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
+                [33mstyle[39m=[32m"z-index: 10;"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0m🌸 Change Theme[0m
+              [36m</button>[39m
             [36m</div>[39m
           [36m</nav>[39m
           [36m<div[39m
@@ -337,17 +327,17 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|--------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 -----------------------|---------|----------|---------|---------|--------------------
-All files              |   16.77 |    40.69 |    5.88 |   19.28 |                    
+All files              |   13.98 |    22.43 |    5.26 |   15.78 |                    
  App.tsx               |      75 |     62.5 |      50 |      75 | 13                 
- DetailedQuiz.tsx      |    3.22 |        0 |       0 |    3.84 | 5-155              
- HomePage.tsx          |   56.75 |    48.38 |   26.66 |   67.74 | 26,34,38-40,99-194 
- SimpleQuiz.tsx        |    1.53 |        0 |       0 |    1.66 | 5-298              
- SimpleQuizResults.tsx |    7.69 |      100 |       0 |    12.5 | 6-58               
+ DetailedQuiz.tsx      |    2.43 |        0 |       0 |    2.77 | 5-147              
+ HomePage.tsx          |   53.84 |    48.38 |      25 |   65.62 | 26,34,38-40,74-172 
+ SimpleQuiz.tsx        |    1.33 |        0 |       0 |    1.42 | 5-289              
+ SimpleQuizResults.tsx |    4.34 |        0 |       0 |    5.55 | 5-69               
  index.tsx             |       0 |      100 |     100 |       0 | 7-19               
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10               
 -----------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.804 s
+Time:        2.846 s
 Ran all test suites.
