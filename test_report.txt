@@ -74,13 +74,12 @@ FAIL src/App.test.tsx
                 [33mclass[39m=[32m"text-center"[39m
                 [33mstyle[39m=[32m"position: absolute; left: 100px; right: 50px;"[39m
               [36m>[39m
-                [36m<a[39m
+                [36m<span[39m
                   [33mclass[39m=[32m"navbar-brand"[39m
-                  [33mhref[39m=[32m"#"[39m
                   [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block; cursor: pointer;"[39m
                 [36m>[39m
                   [0mFind Your Career![0m
-                [36m</a>[39m
+                [36m</span>[39m
                 [36m<div[39m
                   [33mclass[39m=[32m"justify-content-center navbar-nav"[39m
                   [33mstyle[39m=[32m"position: relative; bottom: 10px;"[39m
@@ -327,17 +326,17 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|--------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 -----------------------|---------|----------|---------|---------|--------------------
-All files              |   13.98 |    22.43 |    5.26 |   15.78 |                    
+All files              |   14.59 |    22.43 |    5.49 |   16.16 |                    
  App.tsx               |      75 |     62.5 |      50 |      75 | 13                 
- DetailedQuiz.tsx      |    2.43 |        0 |       0 |    2.77 | 5-147              
- HomePage.tsx          |   53.84 |    48.38 |      25 |   65.62 | 26,34,38-40,74-172 
- SimpleQuiz.tsx        |    1.33 |        0 |       0 |    1.42 | 5-289              
- SimpleQuizResults.tsx |    4.34 |        0 |       0 |    5.55 | 5-69               
+ DetailedQuiz.tsx      |    2.56 |        0 |       0 |    2.85 | 5-145              
+ HomePage.tsx          |   56.75 |    48.38 |   26.66 |   67.74 | 26,34,38-40,80-170 
+ SimpleQuiz.tsx        |    1.36 |        0 |       0 |    1.44 | 5-287              
+ SimpleQuizResults.tsx |    4.76 |        0 |       0 |    5.88 | 5-67               
  index.tsx             |       0 |      100 |     100 |       0 | 7-19               
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10               
 -----------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.846 s
+Time:        2.888 s
 Ran all test suites.
