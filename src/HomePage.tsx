@@ -183,6 +183,7 @@ const HomePage = ({ navigateTo }: { navigateTo: (page: string) => void }) => {
       <Button variant="warning" onClick={handleKeySubmit}>
         Save API Key
       </Button>
+      {/*!-- Api key: sk-...NyYA-->*/}
     </div>
   </div>
 </footer>
