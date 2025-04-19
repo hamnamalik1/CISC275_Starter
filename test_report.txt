@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (86 ms)
+  ✕ renders learn react link (93 ms)
 
   ● renders learn react link
 
@@ -277,28 +277,30 @@ FAIL src/App.test.tsx
             [36m<div[39m
               [33mclass[39m=[32m"container"[39m
             [36m>[39m
-              [36m<label[39m
-                [33mclass[39m=[32m"mb-2 form-label"[39m
+              [36m<form[39m
+                [33mclass[39m=[32m""[39m
+                [33mstyle[39m=[32m"width: 220px; margin: 0px auto;"[39m
               [36m>[39m
-                [0mOpenAI API Key:[0m
-              [36m</label>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"d-flex justify-content-center align-items-center flex-wrap gap-2"[39m
-              [36m>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-label"[39m
+                  [33mstyle[39m=[32m"font-size: small;"[39m
+                [36m>[39m
+                  [0mAPI Key:[0m
+                [36m</label>[39m
                 [36m<input[39m
                   [33mclass[39m=[32m"form-control"[39m
                   [33mplaceholder[39m=[32m"Insert API Key Here"[39m
-                  [33mstyle[39m=[32m"max-width: 250px; background-color: white; color: rgb(51, 51, 51);"[39m
                   [33mtype[39m=[32m"password"[39m
                   [33mvalue[39m=[32m""[39m
                 [36m/>[39m
+                [36m<br />[39m
                 [36m<button[39m
-                  [33mclass[39m=[32m"btn btn-warning"[39m
+                  [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
                   [33mtype[39m=[32m"button"[39m
                 [36m>[39m
-                  [0mSave API Key[0m
+                  [0mSubmit[0m
                 [36m</button>[39m
-              [36m</div>[39m
+              [36m</form>[39m
             [36m</div>[39m
           [36m</footer>[39m
         [36m</div>[39m
@@ -323,20 +325,20 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
------------------------|---------|----------|---------|---------|--------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
------------------------|---------|----------|---------|---------|--------------------
-All files              |   14.13 |    25.36 |    5.15 |   15.34 |                    
- App.tsx               |      75 |     62.5 |      50 |      75 | 13                 
- DetailedQuiz.tsx      |    2.22 |        0 |       0 |    2.27 | 16-360             
- HomePage.tsx          |   56.75 |    48.38 |   26.66 |   67.74 | 26,34,38-40,80-170 
- SimpleQuiz.tsx        |    1.36 |        0 |       0 |    1.44 | 5-287              
- SimpleQuizResults.tsx |    4.76 |        0 |       0 |    5.88 | 5-67               
- index.tsx             |       0 |      100 |     100 |       0 | 7-19               
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10               
------------------------|---------|----------|---------|---------|--------------------
+-----------------------|---------|----------|---------|---------|-----------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     
+-----------------------|---------|----------|---------|---------|-----------------------
+All files              |   14.21 |    27.04 |    4.16 |      15 |                       
+ App.tsx               |      75 |     62.5 |      50 |      75 | 14                    
+ DetailedQuiz.tsx      |    2.22 |        0 |       0 |    2.27 | 16-360                
+ HomePage.tsx          |   55.81 |    48.27 |      20 |   64.86 | 10,31,39,43-47,77-133 
+ SimpleQuiz.tsx        |    1.23 |        0 |       0 |    1.29 | 5-301                 
+ SimpleQuizResults.tsx |     3.7 |        0 |       0 |     3.7 | 9-80                  
+ index.tsx             |       0 |      100 |     100 |       0 | 7-19                  
+ reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                  
+-----------------------|---------|----------|---------|---------|-----------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.877 s
+Time:        2.994 s
 Ran all test suites.
