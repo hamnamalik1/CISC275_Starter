@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (93 ms)
+  ✕ renders learn react link (91 ms)
 
   ● renders learn react link
 
@@ -328,17 +328,17 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|-----------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     
 -----------------------|---------|----------|---------|---------|-----------------------
-All files              |   14.21 |    27.04 |    4.16 |      15 |                       
+All files              |   14.21 |    27.04 |    4.08 |   15.15 |                       
  App.tsx               |      75 |     62.5 |      50 |      75 | 14                    
  DetailedQuiz.tsx      |    2.22 |        0 |       0 |    2.27 | 16-360                
- HomePage.tsx          |   55.81 |    48.27 |      20 |   64.86 | 10,31,39,43-47,77-133 
+ HomePage.tsx          |   53.33 |    46.66 |      20 |   64.86 | 10,31,39,43-49,79-135 
  SimpleQuiz.tsx        |    1.23 |        0 |       0 |    1.29 | 5-301                 
- SimpleQuizResults.tsx |     3.7 |        0 |       0 |     3.7 | 9-80                  
+ SimpleQuizResults.tsx |       4 |        0 |       0 |       4 | 9-93                  
  index.tsx             |       0 |      100 |     100 |       0 | 7-19                  
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                  
 -----------------------|---------|----------|---------|---------|-----------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.994 s
+Time:        2.957 s
 Ran all test suites.
