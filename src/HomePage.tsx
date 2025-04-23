@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Form, Button, Container, Row, Col, Card, InputGroup } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CherryBlossomParallax from './Components/CherryBlossomParallax';
+
 
 const saveKeyData = "MYKEY";
 let keyData = "";
@@ -92,6 +94,12 @@ const HomePage = ({ navigateTo }: { navigateTo: (page: string) => void }) => {
           </Button>
         </div>
       </Navbar>
+
+      <CherryBlossomParallax>
+        <div>
+          
+        </div>
+      </CherryBlossomParallax>
 
       {/* About Section */}
       <Row className="mt-4">
