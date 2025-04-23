@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (85 ms)
+  ✕ renders learn react link (89 ms)
 
   ● renders learn react link
 
@@ -113,6 +113,16 @@ FAIL src/App.test.tsx
                     [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mDetailed Quiz[0m
+                  [36m</a>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"nav-link"[39m
+                    [33mdata-rr-ui-event-key[39m=[32m"#"[39m
+                    [33mhref[39m=[32m"#"[39m
+                    [33mrole[39m=[32m"button"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mAbout Us[0m
                   [36m</a>[39m
                 [36m</div>[39m
               [36m</div>[39m
@@ -328,10 +338,11 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|-----------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     
 -----------------------|---------|----------|---------|---------|-----------------------
-All files              |   14.21 |    27.04 |    4.08 |   15.15 |                       
- App.tsx               |      75 |     62.5 |      50 |      75 | 14                    
+All files              |   13.13 |    22.15 |     3.7 |   14.28 |                       
+ AboutUs.tsx           |    4.34 |        0 |       0 |    5.55 | 7-64                  
+ App.tsx               |      75 |       60 |      50 |      75 | 15                    
  DetailedQuiz.tsx      |    2.22 |        0 |       0 |    2.27 | 16-360                
- HomePage.tsx          |   53.33 |    46.66 |      20 |   64.86 | 10,31,39,43-49,79-135 
+ HomePage.tsx          |   51.06 |    46.77 |   18.75 |   63.15 | 10,31,39,43-49,79-138 
  SimpleQuiz.tsx        |    1.23 |        0 |       0 |    1.29 | 5-301                 
  SimpleQuizResults.tsx |       4 |        0 |       0 |       4 | 9-93                  
  index.tsx             |       0 |      100 |     100 |       0 | 7-19                  
@@ -340,5 +351,5 @@ All files              |   14.21 |    27.04 |    4.08 |   15.15 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.953 s
+Time:        2.993 s
 Ran all test suites.
