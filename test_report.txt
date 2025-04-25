@@ -26,70 +26,43 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (87 ms)
+  ✕ renders learn react link (78 ms)
 
   ● renders learn react link
 
     TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
     Ignored nodes: comments, script, style
-    [36m<body[39m
-      [33mclass[39m=[32m"default"[39m
-    [36m>[39m
+    [36m<body>[39m
       [36m<div>[39m
         [36m<div[39m
-          [33mclass[39m=[32m"container"[39m
-          [33mstyle[39m=[32m"background-color: rgb(240, 248, 255); padding: 20px; border-radius: 10px;"[39m
+          [33mclass[39m=[32m"container-fluid"[39m
+          [33mstyle[39m=[32m"background-color: rgb(255, 236, 241); padding: 20px; border-radius: 10px; min-height: 100vh;"[39m
         [36m>[39m
-          [36m<nav[39m
-            [33mclass[39m=[32m"p-3 rounded navbar navbar-expand-lg navbar-dark bg-dark"[39m
-            [33mstyle[39m=[32m"z-index: 1050;"[39m
+          [36m<div[39m
+            [33mstyle[39m=[32m"background-color: white; border-radius: 20px; padding: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 25px;"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"d-flex justify-content-between align-items-center w-100"[39m
+              [33mclass[39m=[32m"d-flex justify-content-center align-items-center"[39m
             [36m>[39m
-              [36m<form[39m
-                [33mclass[39m=[32m"d-flex"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"input-group"[39m
-                [36m>[39m
-                  [36m<input[39m
-                    [33mclass[39m=[32m"form-control"[39m
-                    [33mplaceholder[39m=[32m"Search"[39m
-                    [33mstyle[39m=[32m"max-width: 200px; height: 45px;"[39m
-                    [33mtype[39m=[32m"text"[39m
-                    [33mvalue[39m=[32m""[39m
-                  [36m/>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"btn btn-outline-light"[39m
-                    [33mstyle[39m=[32m"height: 45px;"[39m
-                    [33mtype[39m=[32m"button"[39m
-                  [36m>[39m
-                    [0mSearch[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-              [36m</form>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"text-center"[39m
-                [33mstyle[39m=[32m"position: absolute; left: 100px; right: 50px;"[39m
               [36m>[39m
                 [36m<span[39m
                   [33mclass[39m=[32m"navbar-brand"[39m
-                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 204, 0); display: block; cursor: pointer;"[39m
+                  [33mstyle[39m=[32m"font-size: 1.8rem; font-weight: bold; color: rgb(255, 102, 178); cursor: pointer;"[39m
                 [36m>[39m
                   [0mFind Your Career![0m
                 [36m</span>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"justify-content-center navbar-nav"[39m
-                  [33mstyle[39m=[32m"position: relative; bottom: 10px;"[39m
+                  [33mclass[39m=[32m"justify-content-center nav"[39m
                 [36m>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
                     [33mdata-rr-ui-event-key[39m=[32m"#"[39m
                     [33mhref[39m=[32m"#"[39m
                     [33mrole[39m=[32m"button"[39m
-                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: 500; margin: 0px 10px;"[39m
                     [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mHome[0m
@@ -99,218 +72,157 @@ FAIL src/App.test.tsx
                     [33mdata-rr-ui-event-key[39m=[32m"#"[39m
                     [33mhref[39m=[32m"#"[39m
                     [33mrole[39m=[32m"button"[39m
-                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: 500; margin: 0px 10px;"[39m
                     [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
-                    [0mSimple Quiz[0m
+                    [0mSimple[0m
                   [36m</a>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
                     [33mdata-rr-ui-event-key[39m=[32m"#"[39m
                     [33mhref[39m=[32m"#"[39m
                     [33mrole[39m=[32m"button"[39m
-                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: 500; margin: 0px 10px;"[39m
                     [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
-                    [0mDetailed Quiz[0m
+                    [0mDetailed[0m
                   [36m</a>[39m
                   [36m<a[39m
                     [33mclass[39m=[32m"nav-link"[39m
                     [33mdata-rr-ui-event-key[39m=[32m"#"[39m
                     [33mhref[39m=[32m"#"[39m
                     [33mrole[39m=[32m"button"[39m
-                    [33mstyle[39m=[32m"color: rgb(255, 204, 0);"[39m
+                    [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: 500; margin: 0px 10px;"[39m
                     [33mtabindex[39m=[32m"0"[39m
                   [36m>[39m
                     [0mAbout Us[0m
                   [36m</a>[39m
                 [36m</div>[39m
               [36m</div>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"me-2 btn btn-outline-light"[39m
-                [33mstyle[39m=[32m"z-index: 10;"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0m🌸 Change Theme[0m
-              [36m</button>[39m
-            [36m</div>[39m
-          [36m</nav>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"mt-4 row"[39m
-          [36m>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"col-md-8"[39m
-            [36m>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"card"[39m
-                [33mstyle[39m=[32m"height: 300px; background-color: white; color: rgb(51, 51, 51);"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"card-body"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"card-title h5"[39m
-                    [33mstyle[39m=[32m"font-size: 1.5rem; font-weight: bold;"[39m
-                  [36m>[39m
-                    [0mAbout[0m
-                  [36m</div>[39m
-                  [36m<p[39m
-                    [33mclass[39m=[32m"card-text"[39m
-                  [36m>[39m
-                    [0mChoosing the right career can feel overwhelming, but we're here to help! Our career quiz is designed to guide you toward a profession that matches your skills, interests, and personality. Based on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions. Start today and take the first step toward your future![0m
-                  [36m</p>[39m
-                [36m</div>[39m
-              [36m</div>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"col-md-4"[39m
-            [36m>[39m
-              [36m<img[39m
-                [33malt[39m=[32m"Career Path"[39m
-                [33msrc[39m=[32m"https://www.cfnc.org/media/lnrf5gv0/career-sign-post.jpg"[39m
-                [33mstyle[39m=[32m"width: 100%; height: 300px; object-fit: cover; border-radius: 10px;"[39m
-              [36m/>[39m
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"mt-4 row"[39m
+            [33mclass[39m=[32m"text-center"[39m
+            [33mstyle[39m=[32m"background-color: white; border-radius: 20px; padding: 25px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 25px;"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"col-md-6"[39m
-              [33mid[39m=[32m"simple-quiz"[39m
+              [33mclass[39m=[32m"mb-4 row"[39m
             [36m>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"card"[39m
-                [33mstyle[39m=[32m"height: 200px; background-color: rgb(76, 175, 80); color: white;"[39m
+                [33mclass[39m=[32m"card-title h5"[39m
+                [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: bold;"[39m
               [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"card-body"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"card-title h5"[39m
-                  [36m>[39m
-                    [0mSimple Quiz[0m
-                  [36m</div>[39m
-                  [36m<p[39m
-                    [33mclass[39m=[32m"card-text"[39m
-                  [36m>[39m
-                    [0mOur Simple Quiz is a quick and easy way to explore career options that suit you. It's a great starting point for anyone looking for direction without spending too much time. Give it a try and discover potential career paths in minutes![0m
-                  [36m</p>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"btn btn-light"[39m
-                    [33mtype[39m=[32m"button"[39m
-                  [36m>[39m
-                    [0mGo[0m
-                  [36m</button>[39m
-                [36m</div>[39m
+                [0mWelcome to Career Matcher![0m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mstyle[39m=[32m"color: rgb(96, 53, 73);"[39m
+              [36m>[39m
+                [36m<p>[39m
+                  [0mChoosing the right career can feel overwhelming, but we're here to help! Our career quiz is designed to guide you toward a profession that matches your skills, interests, and personality.[0m
+                [36m</p>[39m
+                [36m<p>[39m
+                  [0mBased on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions.[0m
+                [36m</p>[39m
+                [36m<p>[39m
+                  [0mStart today and take the first step toward your future![0m
+                [36m</p>[39m
               [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"col-md-6"[39m
-              [33mid[39m=[32m"detailed-quiz"[39m
+              [33mclass[39m=[32m"row"[39m
             [36m>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"card"[39m
-                [33mstyle[39m=[32m"height: 200px; background-color: rgb(33, 150, 243); color: white;"[39m
+                [33mclass[39m=[32m"mb-4 col-md-6"[39m
               [36m>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"card-body"[39m
+                  [33mclass[39m=[32m"card"[39m
+                  [33mstyle[39m=[32m"border-radius: 15px; border-color: #ffb3d9; background-color: rgb(255, 240, 247);"[39m
                 [36m>[39m
                   [36m<div[39m
-                    [33mclass[39m=[32m"card-title h5"[39m
+                    [33mclass[39m=[32m"card-body"[39m
                   [36m>[39m
-                    [0mDetailed Quiz[0m
-                  [36m</div>[39m
-                  [36m<p[39m
-                    [33mclass[39m=[32m"card-text"[39m
-                  [36m>[39m
-                    [0mThe Detailed Quiz provides an in-depth analysis of your skills, interests, and personality to help you find the best career path.[0m
-                  [36m</p>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"btn btn-light"[39m
-                    [33mtype[39m=[32m"button"[39m
-                  [36m>[39m
-                    [0mGo[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-              [36m</div>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"mt-4 row"[39m
-          [36m>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"col"[39m
-            [36m>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"card"[39m
-                [33mstyle[39m=[32m"height: 150px; background-color: white; color: rgb(51, 51, 51);"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"card-body"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"card-title h5"[39m
-                  [36m>[39m
-                    [0mFeedback[0m
-                  [36m</div>[39m
-                  [36m<form[39m
-                    [33mclass[39m=[32m""[39m
-                  [36m>[39m
-                    [36m<div>[39m
-                      [36m<label[39m
-                        [33mclass[39m=[32m"form-label"[39m
-                      [36m>[39m
-                        [0mMessage[0m
-                      [36m</label>[39m
-                      [36m<textarea[39m
-                        [33mclass[39m=[32m"form-control"[39m
-                        [33mname[39m=[32m"message"[39m
-                        [33mrows[39m=[32m"2"[39m
-                        [33mstyle[39m=[32m"background-color: white; color: rgb(51, 51, 51);"[39m
-                      [36m/>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"card-title h5"[39m
+                      [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: bold;"[39m
+                    [36m>[39m
+                      [0mSimple Quiz[0m
                     [36m</div>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"card-text"[39m
+                      [33mstyle[39m=[32m"color: rgb(96, 53, 73);"[39m
+                    [36m>[39m
+                      [0mOur Simple Quiz is a quick and easy way to explore career options that suit you. It's a great starting point for anyone looking for direction without spending too much time. Give it a try and discover potential career paths in minutes![0m
+                    [36m</p>[39m
                     [36m<button[39m
-                      [33mclass[39m=[32m"btn btn-dark"[39m
+                      [33mclass[39m=[32m"btn btn-primary"[39m
+                      [33mstyle[39m=[32m"background-color: rgb(255, 128, 191); border-color: #ff80bf; color: white; border-radius: 15px; font-weight: 500; padding: 8px 20px;"[39m
                       [33mtype[39m=[32m"button"[39m
                     [36m>[39m
-                      [0mSubmit[0m
+                      [0mTake Simple Quiz[0m
                     [36m</button>[39m
-                  [36m</form>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"mb-4 col-md-6"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"card"[39m
+                  [33mstyle[39m=[32m"border-radius: 15px; border-color: #ff99cc; background-color: rgb(255, 230, 242);"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"card-body"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"card-title h5"[39m
+                      [33mstyle[39m=[32m"color: rgb(255, 102, 178); font-weight: bold;"[39m
+                    [36m>[39m
+                      [0mDetailed Quiz[0m
+                    [36m</div>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"card-text"[39m
+                      [33mstyle[39m=[32m"color: rgb(96, 53, 73);"[39m
+                    [36m>[39m
+                      [0mThe Detailed Quiz provides an in-depth analysis of your skills, interests, and personality to help you find the best career path. If you're serious about finding your perfect career match, this comprehensive assessment is made just for you![0m
+                    [36m</p>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"btn btn-primary"[39m
+                      [33mstyle[39m=[32m"background-color: rgb(255, 128, 191); border-color: #ff80bf; color: white; border-radius: 15px; font-weight: 500; padding: 8px 20px;"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mTake Detailed Quiz[0m
+                    [36m</button>[39m
+                  [36m</div>[39m
                 [36m</div>[39m
               [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
           [36m<footer[39m
-            [33mclass[39m=[32m"bg-light py-4 mt-5 text-center"[39m
+            [33mclass[39m=[32m"text-center"[39m
+            [33mstyle[39m=[32m"background-color: white; border-radius: 20px; padding: 15px; margin-top: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"container"[39m
+              [33mstyle[39m=[32m"width: 220px; margin: 0px auto;"[39m
             [36m>[39m
-              [36m<form[39m
-                [33mclass[39m=[32m""[39m
-                [33mstyle[39m=[32m"width: 220px; margin: 0px auto;"[39m
+              [36m<div[39m
+                [33mstyle[39m=[32m"font-size: small; color: rgb(255, 102, 178); font-weight: 500; margin-bottom: 5px;"[39m
               [36m>[39m
-                [36m<label[39m
-                  [33mclass[39m=[32m"form-label"[39m
-                  [33mstyle[39m=[32m"font-size: small;"[39m
-                [36m>[39m
-                  [0mAPI Key:[0m
-                [36m</label>[39m
-                [36m<input[39m
-                  [33mclass[39m=[32m"form-control"[39m
-                  [33mplaceholder[39m=[32m"Insert API Key Here"[39m
-                  [33mtype[39m=[32m"password"[39m
-                  [33mvalue[39m=[32m""[39m
-                [36m/>[39m
-                [36m<br />[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
-                  [33mtype[39m=[32m"button"[39m
-                [36m>[39m
-                  [0mSubmit[0m
-                [36m</button>[39m
-              [36m</form>[39m
+                [0mAPI Key:[0m
+              [36m</div>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-control"[39m
+                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                [33mstyle[39m=[32m"border-color: #ffcce6; margin-bottom: 10px;"[39m
+                [33mtype[39m=[32m"password"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"mb-2 btn btn-primary"[39m
+                [33mstyle[39m=[32m"background-color: rgb(255, 128, 191); border-color: #ff80bf; color: white; border-radius: 15px; font-weight: 500; padding: 8px 20px;"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSubmit[0m
+              [36m</button>[39m
             [36m</div>[39m
           [36m</footer>[39m
         [36m</div>[39m
@@ -335,21 +247,22 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
------------------------|---------|----------|---------|---------|-----------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     
------------------------|---------|----------|---------|---------|-----------------------
-All files              |   12.55 |    21.34 |    3.57 |   13.71 |                       
- AboutUs.tsx           |    4.34 |        0 |       0 |    5.55 | 10-67                 
- App.tsx               |      75 |       60 |      50 |      75 | 15                    
- DetailedQuiz.tsx      |    1.85 |        0 |       0 |    1.92 | 16-382                
- HomePage.tsx          |   51.06 |    46.77 |   18.75 |   63.15 | 11,32,40,44-50,80-139 
- SimpleQuiz.tsx        |     1.2 |        0 |       0 |    1.28 | 5-304                 
- SimpleQuizResults.tsx |       4 |        0 |       0 |       4 | 9-93                  
- index.tsx             |       0 |      100 |     100 |       0 | 7-19                  
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                  
------------------------|---------|----------|---------|---------|-----------------------
+-----------------------|---------|----------|---------|---------|--------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
+-----------------------|---------|----------|---------|---------|--------------------
+All files              |    6.49 |      4.7 |    1.63 |     7.2 |                    
+ AboutUs.tsx           |    4.34 |        0 |       0 |    5.55 | 10-67              
+ App.tsx               |      75 |       60 |      50 |      75 | 16                 
+ DetailedQuiz.tsx      |    1.85 |        0 |       0 |    1.92 | 16-382             
+ HomePage.tsx          |       0 |        0 |       0 |       0 | 6-139              
+ NewHomePage.tsx       |   36.66 |    33.33 |      10 |   45.83 | 10,18,22-28,99-156 
+ SimpleQuiz.tsx        |     1.2 |        0 |       0 |    1.28 | 5-304              
+ SimpleQuizResults.tsx |       4 |        0 |       0 |       4 | 9-93               
+ index.tsx             |       0 |      100 |     100 |       0 | 7-19               
+ reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10               
+-----------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.011 s
+Time:        3.427 s
 Ran all test suites.
