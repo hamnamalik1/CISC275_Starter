@@ -1,17 +1,32 @@
 {
   "files": {
     "main.css": "/CISC275_Starter/static/css/main.722eafe8.css",
-    "main.js": "/CISC275_Starter/static/js/main.0af17820.js",
+    "main.js": "/CISC275_Starter/static/js/main.9f4405fb.js",
     "static/js/453.bad6c33a.chunk.js": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js",
+    "static/media/detailed-q6.jpg": "/CISC275_Starter/static/media/detailed-q6.3ade839d7f2f691cc640.jpg",
+    "static/media/simple-q8.jpg": "/CISC275_Starter/static/media/simple-q8.7161ddb956a8dfed57b9.jpg",
+    "static/media/detailed-q2.jpg": "/CISC275_Starter/static/media/detailed-q2.51b4ca5bbae4ba12c3d0.jpg",
+    "static/media/detailed-q1.jpg": "/CISC275_Starter/static/media/detailed-q1.ee104a05cbe7ea1f8589.jpg",
+    "static/media/simple-q6.png": "/CISC275_Starter/static/media/simple-q6.11065ae51eeaa893a194.png",
+    "static/media/simple-q2.jpg": "/CISC275_Starter/static/media/simple-q2.3bf41f2f46bf6397ced7.jpg",
+    "static/media/simple-q3.jpg": "/CISC275_Starter/static/media/simple-q3.fe29585920d408986188.jpg",
+    "static/media/detailed-q4.jpg": "/CISC275_Starter/static/media/detailed-q4.7e9fed28cfba66f92736.jpg",
+    "static/media/simple-q1.jpg": "/CISC275_Starter/static/media/simple-q1.2000a75d9843c0ca59bf.jpg",
+    "static/media/simple-q5.jpg": "/CISC275_Starter/static/media/simple-q5.e12b4803408fca067db8.jpg",
+    "static/media/detailed-q3.jpg": "/CISC275_Starter/static/media/detailed-q3.28db826569e04c438006.jpg",
+    "static/media/simple-q4.jpg": "/CISC275_Starter/static/media/simple-q4.561121e47e24c07ae700.jpg",
     "static/media/us.png": "/CISC275_Starter/static/media/us.5318b1d8a51d1b56d530.png",
     "static/media/flowers.png": "/CISC275_Starter/static/media/flowers.1b49d961f3a6965d53b5.png",
+    "static/media/detailed-q5.jpg": "/CISC275_Starter/static/media/detailed-q5.2a8e2189b22a756201c9.jpg",
+    "static/media/simple-q9.jpg": "/CISC275_Starter/static/media/simple-q9.a7ef819419afd784b154.jpg",
+    "static/media/simple-q10.jpg": "/CISC275_Starter/static/media/simple-q10.f1ed6250ab47f08fd6e5.jpg",
     "index.html": "/CISC275_Starter/index.html",
     "main.722eafe8.css.map": "/CISC275_Starter/static/css/main.722eafe8.css.map",
-    "main.0af17820.js.map": "/CISC275_Starter/static/js/main.0af17820.js.map",
+    "main.9f4405fb.js.map": "/CISC275_Starter/static/js/main.9f4405fb.js.map",
     "453.bad6c33a.chunk.js.map": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.722eafe8.css",
-    "static/js/main.0af17820.js"
+    "static/js/main.9f4405fb.js"
   ]
 }
