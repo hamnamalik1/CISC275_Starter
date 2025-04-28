@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CISC275_Starter/static/css/main.722eafe8.css",
-    "main.js": "/CISC275_Starter/static/js/main.9f4405fb.js",
+    "main.css": "/CISC275_Starter/static/css/main.d38c5a5b.css",
+    "main.js": "/CISC275_Starter/static/js/main.f10e5cdd.js",
     "static/js/453.bad6c33a.chunk.js": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js",
     "static/media/detailed-q6.jpg": "/CISC275_Starter/static/media/detailed-q6.3ade839d7f2f691cc640.jpg",
     "static/media/simple-q8.jpg": "/CISC275_Starter/static/media/simple-q8.7161ddb956a8dfed57b9.jpg",
@@ -11,9 +11,11 @@
     "static/media/simple-q2.jpg": "/CISC275_Starter/static/media/simple-q2.3bf41f2f46bf6397ced7.jpg",
     "static/media/simple-q3.jpg": "/CISC275_Starter/static/media/simple-q3.fe29585920d408986188.jpg",
     "static/media/detailed-q4.jpg": "/CISC275_Starter/static/media/detailed-q4.7e9fed28cfba66f92736.jpg",
+    "static/media/flowa.png": "/CISC275_Starter/static/media/flowa.ce301a6806fd40125d9b.png",
     "static/media/simple-q1.jpg": "/CISC275_Starter/static/media/simple-q1.2000a75d9843c0ca59bf.jpg",
     "static/media/simple-q5.jpg": "/CISC275_Starter/static/media/simple-q5.e12b4803408fca067db8.jpg",
     "static/media/detailed-q3.jpg": "/CISC275_Starter/static/media/detailed-q3.28db826569e04c438006.jpg",
+    "static/media/falldown.gif": "/CISC275_Starter/static/media/falldown.1aa7b640bec0a3711c9e.gif",
     "static/media/simple-q4.jpg": "/CISC275_Starter/static/media/simple-q4.561121e47e24c07ae700.jpg",
     "static/media/us.png": "/CISC275_Starter/static/media/us.5318b1d8a51d1b56d530.png",
     "static/media/flowers.png": "/CISC275_Starter/static/media/flowers.1b49d961f3a6965d53b5.png",
@@ -21,12 +23,12 @@
     "static/media/simple-q9.jpg": "/CISC275_Starter/static/media/simple-q9.a7ef819419afd784b154.jpg",
     "static/media/simple-q10.jpg": "/CISC275_Starter/static/media/simple-q10.f1ed6250ab47f08fd6e5.jpg",
     "index.html": "/CISC275_Starter/index.html",
-    "main.722eafe8.css.map": "/CISC275_Starter/static/css/main.722eafe8.css.map",
-    "main.9f4405fb.js.map": "/CISC275_Starter/static/js/main.9f4405fb.js.map",
+    "main.d38c5a5b.css.map": "/CISC275_Starter/static/css/main.d38c5a5b.css.map",
+    "main.f10e5cdd.js.map": "/CISC275_Starter/static/js/main.f10e5cdd.js.map",
     "453.bad6c33a.chunk.js.map": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.722eafe8.css",
-    "static/js/main.9f4405fb.js"
+    "static/css/main.d38c5a5b.css",
+    "static/js/main.f10e5cdd.js"
   ]
 }
