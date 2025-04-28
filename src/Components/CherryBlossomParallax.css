@@ -17,7 +17,7 @@
   }
   
   .background-layer {
-    background-image: url('../BOOTOM.png');
+    background-image: url('../petalback.png');
     z-index: 1;
     filter: blur(2px);
     background-size: cover;
@@ -35,9 +35,9 @@
   }
   
   .foreground-layer {
-    background-image: url('../TOOP.png');
+    background-image: url('../flowa.png');
     z-index: 3;
-    background-size: cover;
+    background-size: 1500px;
     background-position: center top;
     height: 4000px;
   }
