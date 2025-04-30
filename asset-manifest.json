@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CISC275_Starter/static/css/main.d38c5a5b.css",
-    "main.js": "/CISC275_Starter/static/js/main.f10e5cdd.js",
+    "main.css": "/CISC275_Starter/static/css/main.0b75ec5e.css",
+    "main.js": "/CISC275_Starter/static/js/main.e4341e4e.js",
     "static/js/453.bad6c33a.chunk.js": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js",
     "static/media/detailed-q6.jpg": "/CISC275_Starter/static/media/detailed-q6.3ade839d7f2f691cc640.jpg",
     "static/media/simple-q8.jpg": "/CISC275_Starter/static/media/simple-q8.7161ddb956a8dfed57b9.jpg",
@@ -18,17 +18,16 @@
     "static/media/falldown.gif": "/CISC275_Starter/static/media/falldown.1aa7b640bec0a3711c9e.gif",
     "static/media/simple-q4.jpg": "/CISC275_Starter/static/media/simple-q4.561121e47e24c07ae700.jpg",
     "static/media/us.png": "/CISC275_Starter/static/media/us.5318b1d8a51d1b56d530.png",
-    "static/media/flowers.png": "/CISC275_Starter/static/media/flowers.1b49d961f3a6965d53b5.png",
     "static/media/detailed-q5.jpg": "/CISC275_Starter/static/media/detailed-q5.2a8e2189b22a756201c9.jpg",
     "static/media/simple-q9.jpg": "/CISC275_Starter/static/media/simple-q9.a7ef819419afd784b154.jpg",
     "static/media/simple-q10.jpg": "/CISC275_Starter/static/media/simple-q10.f1ed6250ab47f08fd6e5.jpg",
     "index.html": "/CISC275_Starter/index.html",
-    "main.d38c5a5b.css.map": "/CISC275_Starter/static/css/main.d38c5a5b.css.map",
-    "main.f10e5cdd.js.map": "/CISC275_Starter/static/js/main.f10e5cdd.js.map",
+    "main.0b75ec5e.css.map": "/CISC275_Starter/static/css/main.0b75ec5e.css.map",
+    "main.e4341e4e.js.map": "/CISC275_Starter/static/js/main.e4341e4e.js.map",
     "453.bad6c33a.chunk.js.map": "/CISC275_Starter/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d38c5a5b.css",
-    "static/js/main.f10e5cdd.js"
+    "static/css/main.0b75ec5e.css",
+    "static/js/main.e4341e4e.js"
   ]
 }
