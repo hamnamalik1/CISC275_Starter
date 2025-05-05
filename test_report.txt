@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (72 ms)
+  ✕ renders learn react link (71 ms)
 
   ● renders learn react link
 
@@ -247,28 +247,29 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
----------------------------|---------|----------|---------|---------|--------------------
-File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
----------------------------|---------|----------|---------|---------|--------------------
-All files                  |    3.86 |        4 |    0.96 |    4.29 |                    
- src                       |    8.17 |       16 |    2.02 |    9.18 |                    
-  App.tsx                  |      75 |       60 |      50 |      75 | 20                 
-  NewAboutUs.tsx           |      10 |      100 |       0 |   16.66 | 12-58              
-  NewDetailedQuiz.tsx      |    1.92 |        0 |       0 |    2.12 | 26-332             
-  NewHomePage.tsx          |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,71-127 
-  NewSimpleQuiz.tsx        |    1.44 |        0 |       0 |    1.53 | 22-291             
-  NewSimpleQuizResults.tsx |    3.03 |        0 |       0 |    3.44 | 13-150             
-  index.tsx                |       0 |      100 |     100 |       0 | 7-19               
-  reportWebVitals.ts       |       0 |        0 |       0 |       0 | 3-10               
- src/Old_Pages             |       0 |        0 |       0 |       0 |                    
-  AboutUs.tsx              |       0 |        0 |       0 |       0 | 9-67               
-  DetailedQuiz.tsx         |       0 |        0 |       0 |       0 | 23-393             
-  HomePage.tsx             |       0 |        0 |       0 |       0 | 6-139              
-  SimpleQuiz.tsx           |       0 |        0 |       0 |       0 | 17-319             
-  SimpleQuizResults.tsx    |       0 |        0 |       0 |       0 | 8-93               
----------------------------|---------|----------|---------|---------|--------------------
+-----------------------------|---------|----------|---------|---------|--------------------
+File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
+-----------------------------|---------|----------|---------|---------|--------------------
+All files                    |    3.65 |     3.84 |    0.93 |    4.03 |                    
+ src                         |    7.29 |    13.79 |    1.86 |    8.09 |                    
+  App.tsx                    |      75 |       60 |      50 |      75 | 20                 
+  NewAboutUs.tsx             |      10 |      100 |       0 |   16.66 | 12-58              
+  NewDetailedQuiz.tsx        |    1.92 |        0 |       0 |    2.12 | 26-332             
+  NewDetailedQuizResults.tsx |       0 |        0 |       0 |       0 | 8-95               
+  NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,71-127 
+  NewSimpleQuiz.tsx          |    1.44 |        0 |       0 |    1.53 | 22-291             
+  NewSimpleQuizResults.tsx   |    3.03 |        0 |       0 |    3.44 | 13-150             
+  index.tsx                  |       0 |      100 |     100 |       0 | 7-19               
+  reportWebVitals.ts         |       0 |        0 |       0 |       0 | 3-10               
+ src/Old_Pages               |       0 |        0 |       0 |       0 |                    
+  AboutUs.tsx                |       0 |        0 |       0 |       0 | 9-67               
+  DetailedQuiz.tsx           |       0 |        0 |       0 |       0 | 23-393             
+  HomePage.tsx               |       0 |        0 |       0 |       0 | 6-139              
+  SimpleQuiz.tsx             |       0 |        0 |       0 |       0 | 17-319             
+  SimpleQuizResults.tsx      |       0 |        0 |       0 |       0 | 8-93               
+-----------------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.431 s
+Time:        4.332 s
 Ran all test suites.
