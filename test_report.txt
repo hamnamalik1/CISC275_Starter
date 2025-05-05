@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (71 ms)
+  ✕ renders learn react link (73 ms)
 
   ● renders learn react link
 
@@ -250,12 +250,12 @@ FAIL src/App.test.tsx
 -----------------------------|---------|----------|---------|---------|--------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 -----------------------------|---------|----------|---------|---------|--------------------
-All files                    |    3.65 |     3.84 |    0.93 |    4.03 |                    
- src                         |    7.29 |    13.79 |    1.86 |    8.09 |                    
-  App.tsx                    |      75 |       60 |      50 |      75 | 20                 
+All files                    |    3.78 |     4.24 |     0.9 |     4.2 |                    
+ src                         |    7.37 |    14.51 |    1.75 |    8.29 |                    
+  App.tsx                    |      75 |    58.33 |      50 |      75 | 21                 
   NewAboutUs.tsx             |      10 |      100 |       0 |   16.66 | 12-58              
-  NewDetailedQuiz.tsx        |    1.92 |        0 |       0 |    2.12 | 26-332             
-  NewDetailedQuizResults.tsx |       0 |        0 |       0 |       0 | 8-95               
+  NewDetailedQuiz.tsx        |    1.81 |        0 |       0 |       2 | 29-407             
+  NewDetailedQuizResults.tsx |    3.03 |        0 |       0 |    3.44 | 25-152             
   NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,71-127 
   NewSimpleQuiz.tsx          |    1.44 |        0 |       0 |    1.53 | 22-291             
   NewSimpleQuizResults.tsx   |    3.03 |        0 |       0 |    3.44 | 13-150             
@@ -271,5 +271,5 @@ All files                    |    3.65 |     3.84 |    0.93 |    4.03 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.332 s
+Time:        4.543 s
 Ran all test suites.
