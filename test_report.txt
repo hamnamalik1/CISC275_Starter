@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (72 ms)
+  ✕ renders learn react link (77 ms)
 
   ● renders learn react link
 
@@ -116,6 +116,26 @@ FAIL src/App.test.tsx
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
+            [33mclass[39m=[32m"scrolling"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"parallax-container"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"parallax-layer bottom-layer"[39m
+                [33mstyle[39m=[32m"background-image: url(b.png); transform: translateY(0px);"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"parallax-layer middle-layer"[39m
+                [33mstyle[39m=[32m"background-image: url(mid.png); transform: translateY(0px);"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"parallax-layer top-layer"[39m
+                [33mstyle[39m=[32m"background-image: url(t.png); transform: translateY(0px);"[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
             [33mclass[39m=[32m"main-content text-center"[39m
           [36m>[39m
             [36m<div[39m
@@ -124,7 +144,7 @@ FAIL src/App.test.tsx
               [36m<div[39m
                 [33mclass[39m=[32m"card-title card-title h5"[39m
               [36m>[39m
-                [0mWelcome to Career Matcher![0m
+                [0mWelcome to Career Bloom![0m
               [36m</div>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"card-text"[39m
@@ -136,7 +156,7 @@ FAIL src/App.test.tsx
                   [0mBased on well-researched questions and career assessments, we analyze your responses to provide personalized career suggestions. Whether you're exploring options or looking for clarity, our quiz helps you discover paths that align with your strengths and passions.[0m
                 [36m</p>[39m
                 [36m<p>[39m
-                  [0mStart today and take the first step toward your future![0m
+                  [0mStart today and spring into the future![0m
                 [36m</p>[39m
               [36m</div>[39m
             [36m</div>[39m
@@ -251,13 +271,13 @@ FAIL src/App.test.tsx
 -----------------------------|---------|----------|---------|---------|--------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 -----------------------------|---------|----------|---------|---------|--------------------
-All files                    |     3.6 |     3.94 |    0.87 |    4.01 |                    
+All files                    |     5.5 |     3.94 |    2.58 |    6.11 |                    
  src                         |    6.74 |    11.53 |    1.66 |    7.59 |                    
   App.tsx                    |      75 |    58.33 |      50 |      75 | 21                 
   NewAboutUs.tsx             |      10 |      100 |       0 |   16.66 | 12-58              
   NewDetailedQuiz.tsx        |    1.49 |        0 |       0 |    1.61 | 30-450             
   NewDetailedQuizResults.tsx |    2.94 |        0 |       0 |    3.57 | 22-154             
-  NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,72-128 
+  NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 17,25,29-35,81-147 
   NewSimpleQuiz.tsx          |    1.28 |        0 |       0 |    1.35 | 23-352             
   NewSimpleQuizResults.tsx   |    2.94 |        0 |       0 |    3.44 | 22-156             
   index.tsx                  |       0 |      100 |     100 |       0 | 7-19               
@@ -268,9 +288,11 @@ All files                    |     3.6 |     3.94 |    0.87 |    4.01 |
   HomePage.tsx               |       0 |        0 |       0 |       0 | 6-139              
   SimpleQuiz.tsx             |       0 |        0 |       0 |       0 | 17-319             
   SimpleQuizResults.tsx      |       0 |        0 |       0 |       0 | 8-93               
+ src/components              |     100 |      100 |     100 |     100 |                    
+  Parallax.tsx               |     100 |      100 |     100 |     100 |                    
 -----------------------------|---------|----------|---------|---------|--------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.388 s
+Time:        4.382 s
 Ran all test suites.
