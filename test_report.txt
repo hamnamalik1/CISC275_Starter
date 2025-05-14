@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (79 ms)
+  ✕ renders learn react link (75 ms)
 
   ● renders learn react link
 
@@ -271,12 +271,12 @@ FAIL src/App.test.tsx
 -----------------------------|---------|----------|---------|---------|--------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 -----------------------------|---------|----------|---------|---------|--------------------
-All files                    |    5.44 |     3.84 |    2.56 |    6.04 |                    
- src                         |    6.61 |    10.71 |    1.63 |    7.43 |                    
+All files                    |    5.39 |     3.75 |    2.54 |    5.98 |                    
+ src                         |    6.49 |       10 |    1.61 |    7.28 |                    
   App.tsx                    |      75 |    58.33 |      50 |      75 | 21                 
   NewAboutUs.tsx             |      10 |      100 |       0 |   16.66 | 12-58              
-  NewDetailedQuiz.tsx        |    1.49 |        0 |       0 |    1.61 | 30-450             
-  NewDetailedQuizResults.tsx |    2.94 |        0 |       0 |    3.57 | 22-154             
+  NewDetailedQuiz.tsx        |    1.49 |        0 |       0 |    1.61 | 30-452             
+  NewDetailedQuizResults.tsx |    2.56 |        0 |       0 |    3.03 | 23-175             
   NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 17,25,29-35,81-147 
   NewSimpleQuiz.tsx          |    1.28 |        0 |       0 |    1.35 | 23-352             
   NewSimpleQuizResults.tsx   |    2.56 |        0 |       0 |    2.94 | 22-175             
@@ -294,5 +294,5 @@ All files                    |    5.44 |     3.84 |    2.56 |    6.04 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.647 s
+Time:        4.498 s
 Ran all test suites.
