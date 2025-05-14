@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (70 ms)
+  ✕ renders learn react link (79 ms)
 
   ● renders learn react link
 
@@ -63,8 +63,9 @@ FAIL src/App.test.tsx
                 [36m/>[39m
                 [36m<span[39m
                   [33mclass[39m=[32m"navbar-brand navbar-brand"[39m
+                  [33mstyle[39m=[32m"font-size: 3rem;"[39m
                 [36m>[39m
-                  [0mFind Your Career![0m
+                  [0mCareer Bloom[0m
                 [36m</span>[39m
                 [36m<img[39m
                   [33malt[39m=[32m"sakura right"[39m
@@ -254,9 +255,9 @@ All files                    |     3.6 |     3.94 |    0.87 |    4.01 |
  src                         |    6.74 |    11.53 |    1.66 |    7.59 |                    
   App.tsx                    |      75 |    58.33 |      50 |      75 | 21                 
   NewAboutUs.tsx             |      10 |      100 |       0 |   16.66 | 12-58              
-  NewDetailedQuiz.tsx        |    1.49 |        0 |       0 |    1.61 | 30-450             
+  NewDetailedQuiz.tsx        |    1.49 |        0 |       0 |    1.61 | 30-453             
   NewDetailedQuizResults.tsx |    2.94 |        0 |       0 |    3.57 | 22-151             
-  NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,71-127 
+  NewHomePage.tsx            |   34.48 |    33.33 |      10 |   43.47 | 13,21,25-31,72-128 
   NewSimpleQuiz.tsx          |    1.28 |        0 |       0 |    1.35 | 23-351             
   NewSimpleQuizResults.tsx   |    2.94 |        0 |       0 |    3.44 | 22-153             
   index.tsx                  |       0 |      100 |     100 |       0 | 7-19               
@@ -271,5 +272,5 @@ All files                    |     3.6 |     3.94 |    0.87 |    4.01 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.335 s
+Time:        4.504 s
 Ran all test suites.
